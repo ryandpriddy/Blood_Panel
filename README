@@ -1,0 +1,65 @@
+*******************************************************
+*  Name      :  Ryan Priddy
+*******************************************************
+
+
+                 Read Me
+
+
+*******************************************************
+*  Description of the program
+*******************************************************
+
+The program "Blood_Panel" uses commands in the main
+function to read the provided txt file, creates objects
+based on read-in line, and prints out the interpreted
+results. Walkthrough comments are provided inside the
+sourcecode.
+
+*******************************************************
+*  Source files
+*******************************************************
+
+Name:  main.cpp
+   Main program.  This is the driver program that reads
+the file, generates BloodTest objects, and calculates the
+percentile. Also, determines which test is read in and
+initializes the appropriate object. Finally, it calls the
+print statements for all results.
+
+Name:  Test.h
+   Contains the definition for the class BloodTest and
+   all subclasses of BloodTest.
+
+Name:  Test.cpp
+   Functions to create BloodTest objects from main
+   using polymorphism. This also runs the conversion
+   calculations which determines percentile for each
+   test.
+
+*******************************************************
+*  Circumstances of programs
+*******************************************************
+
+   The program runs successfully.
+
+*******************************************************
+*  How to build and run the program
+*******************************************************
+
+1. Uncompress the zip file.
+   To uncompress it use the following commands:
+       unzip Blood_Panel.zip
+
+   Now you should see a directory named SciTec with the files:
+        main.cpp
+        Test.h
+        Test.cpp
+
+2. Build the program.
+
+    Compile the source code using the following commands:
+	 g++ -o panel Test.cpp main.cpp
+
+3. Run the program by:
+       ./panel
