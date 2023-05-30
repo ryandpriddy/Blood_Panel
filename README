@@ -51,7 +51,7 @@ Name:  Test.cpp
    To uncompress it use the following commands:
        unzip Blood_Panel.zip
 
-   Now you should see a directory named SciTec with the files:
+   Now you should see a directory named Blood_Panel with the files:
         main.cpp
         Test.h
         Test.cpp

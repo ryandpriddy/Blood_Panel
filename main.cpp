@@ -2,7 +2,7 @@
  May 29, 2023
  Initial comments:
     -The purpose of this example program was created to show my capability to use Inheritance, OOP, Polymorphism, Data reading,
-        math, pointers, references, constructors, destructors.
+        math, pointers, references, constructors, destructors, heap, and stack.
     -I found a blood test example online and constructed the program around the txt file.
     -For this example, I am assuming we don't know the order of the blood tests from the report
     -I am assuming we do know the first four lines are patient identifiers, but they will not be used in this example
